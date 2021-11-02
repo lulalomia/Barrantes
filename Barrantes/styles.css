@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+header {
+    margin: 0;
+    background-color: #0F4C9C;
+    color: white;
+    font-size: 20;
+    font-weight: 400;
+}
+img {
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    background-color: #0F4C9C;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+.barra-collapse,
+.footer-collapse {
+    align-items: center;
+    display: flex!important;
+    flex-basis: auto;
+    padding: 0.5rem;
+}
+.collapse:not(.show) {
+    display: none;
+}
+.vertical-line {
+    width: 0.05px;
+    background-color: white;
+    height: 100%;
+    margin-left: 10px;
+    border: 0.5px ridge white ;
+    border-radius: 1px;
+}
+footer {
+    margin: 0;
+    align-items: center;
+    height: auto; 
+    background-color: #0F4C9C;
+    color: white;
+    font-size: 20;
+    font-weight: 400;
+    width:100%; 
+    position: bottom; 
+    bottom:0; 
+    left:0;
+}
+.muro,
+.prisma,
+.utopia {
+    display: inline-block;
+    border-color: grey;
+    margin: 15px;
+    padding: 0;
+    border: 0;
+    font-size: 20;
+    width: auto;
+    height: auto;
+}
+a.link-proyectos {
+    background-color:white;
+    color:#0F4C9C;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+ 
